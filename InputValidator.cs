@@ -40,7 +40,7 @@ namespace CurrencyConverter
                 return false;
             }
 
-            if (!float.TryParse(words[2], CultureInfo.InvariantCulture, out float amount))
+            if (!float.TryParse(words[2], CultureInfo.InvariantCulture, out _))
                 return false;
 
             return true;

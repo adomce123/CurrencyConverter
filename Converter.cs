@@ -7,7 +7,7 @@ namespace CurrencyConverter
     public class Converter : IConverter
     {
         private readonly ConverterConfiguration _configuration;
-        private readonly IDictionary<string, float>? _exchangeValuesDict;
+        private readonly IDictionary<string, float> _exchangeValuesDict;
 
         public Converter(IOptions<ConverterConfiguration> options)
         {
@@ -21,8 +21,7 @@ namespace CurrencyConverter
             float costToBuy1MainCurr = _exchangeValuesDict[mainCurrency] / _configuration.DividedBy;
             float costToBuy1MoneyCurr = _exchangeValuesDict[moneyCurrency] / _configuration.DividedBy;
 
-            float exchangedAmount = 0;
-
+            float exchangedAmount;
             if (mainCurrency == moneyCurrency)
             {
                 exchangedAmount = amount;
