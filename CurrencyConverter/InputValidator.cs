@@ -1,9 +1,9 @@
-﻿using CurrencyConverter.Configuration;
-using CurrencyConverter.Interfaces;
+﻿using CurrencyConverter.CurrencyConverter.Configuration;
+using CurrencyConverter.CurrencyConverter.Interfaces;
 using Microsoft.Extensions.Options;
 using System.Globalization;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.CurrencyConverter
 {
     public class InputValidator : IInputValidator
     {

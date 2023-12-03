@@ -1,6 +1,6 @@
-﻿using CurrencyConverter;
-using CurrencyConverter.Configuration;
-using CurrencyConverter.Interfaces;
+﻿using CurrencyConverter.CurrencyConverter;
+using CurrencyConverter.CurrencyConverter.Configuration;
+using CurrencyConverter.CurrencyConverter.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

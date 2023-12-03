@@ -1,8 +1,8 @@
-﻿using CurrencyConverter.Configuration;
-using CurrencyConverter.Interfaces;
+﻿using CurrencyConverter.CurrencyConverter.Configuration;
+using CurrencyConverter.CurrencyConverter.Interfaces;
 using Microsoft.Extensions.Options;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.CurrencyConverter
 {
     public class Converter : IConverter
     {

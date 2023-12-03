@@ -1,7 +1,7 @@
-﻿using CurrencyConverter.Configuration;
+﻿using CurrencyConverter.CurrencyConverter.Configuration;
 using Microsoft.Extensions.Options;
 
-namespace CurrencyConverter.Tests
+namespace CurrencyConverter.CurrencyConverter.Tests
 {
     public class InputValidatorShould
     {

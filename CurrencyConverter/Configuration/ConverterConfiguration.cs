@@ -1,4 +1,4 @@
-﻿namespace CurrencyConverter.Configuration
+﻿namespace CurrencyConverter.CurrencyConverter.Configuration
 {
     public class ConverterConfiguration
     {

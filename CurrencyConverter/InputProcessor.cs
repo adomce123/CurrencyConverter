@@ -1,7 +1,7 @@
-﻿using System.Globalization;
-using CurrencyConverter.Interfaces;
+﻿using CurrencyConverter.CurrencyConverter.Interfaces;
+using System.Globalization;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.CurrencyConverter
 {
     public class InputProcessor : IInputProcessor
     {
