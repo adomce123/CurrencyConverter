@@ -1,4 +1,5 @@
 ﻿using CurrencyConverter.CurrencyConverter.Interfaces;
+using CustomLogger;
 using System.Globalization;
 
 namespace CurrencyConverter.CurrencyConverter
@@ -17,7 +18,7 @@ namespace CurrencyConverter.CurrencyConverter
         public void ReadInput()
         {
             string tipMessage = "Usage: Exchange <currency pair> <amount to exchange>";
-            Console.WriteLine(tipMessage);
+            Log.ToConsole(tipMessage);
 
             while (true)
             {
